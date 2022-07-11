@@ -1,0 +1,82 @@
+*{
+    justify-content: center;
+    
+}
+
+html {
+    padding: 85px 100px 0px 100px;
+    background: border-box;
+    margin: 50px 100px 50px 100px;
+}
+
+header {
+    text-align: center;
+}
+
+#quiz {
+    display: none;
+}
+
+.result {
+    display: none;
+}
+
+.score-board {
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+
+.scoreRecord {
+    display: block;
+    justify-content: space-around;
+    border-bottom-style: outset;
+    margin-bottom: .5rem;
+    background-color: #5e6df1;
+    text-align: center;
+}
+
+h3 {
+    display: inline;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    columns: 50;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.ranking-border-header {
+    align-items: center;
+}
+
+.playerinfo {
+    display: inline;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.ranking-board-playerID {
+    display: inline-block;
+    padding-left: 9.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ranking-board-score {
+    float: right;
+    padding-right: 8.75rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.goBacknClearScorebtn {
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+    <header>
+
+        <h1 class="page-title">Code Quiz</h1>
+        
+        <div class="container">
+
+            <div class="startPage">
+                <h2>
+                    You will need to answer 5 questions with timer running
+                    <br>
+                    <br>
+                    Be ready for the quiz!
+                </h2>
+                <button class="startbtn">Start!</button>
+                <button class="highScorebtn">High Scores!</button>
+            </div>
+
+            <div id="quiz">
+                <div class="timer">Time left: </div>
+                <div id="questions"><p>Questions placeholder</p></div>
+                <button class="btnA" id="A" onclick="checkAnswer('A')">A</button>
+                <button class="btnB" id="B" onclick="checkAnswer('B')">B</button>
+                <button class="btnC" id="C" onclick="checkAnswer('C')">C</button>
+                
+            </div>
+            
+            <div class="result">
+                <div class="yourScore"></div>
+                <input type="text" placeholder="Enter your name" id="playerID" name="playerID" value="">
+                <button class="scorebtn">Submit your score</button>
+            </div>
+        </div> 
+    </header>
+    <div class="score-board">
+        <div class="goBacknClearScorebtn">
+            <button class="goBackbtn">Back</button>
+            <button class="clearScorebtn">ClearScore</button>
+        </div>
+            <main class="scoreRecord">
+                <div class="ranking-board-header row col-12" >
+                    <h3>PlayerID</h3>
+                    <h3>Score</h3>
+                </div>
+            </main>
+            <main class="playerinfo row">
+                <ul class="ranking-board-playerID col-6">
+                </ul>
+                <ul class="ranking-board-score col-6">
+                </ul>
+            </main>
+    </div>
+
+    <script src="./assests/js/script.js"></script>
+</body>
+</html>
